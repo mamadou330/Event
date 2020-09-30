@@ -16,5 +16,4 @@ if(! function_exists('flash')){
           FacadesSession::flash('notification.type', $type);
      }
     
-
 };

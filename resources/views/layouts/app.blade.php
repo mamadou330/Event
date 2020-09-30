@@ -12,9 +12,9 @@
      <div class="container mb-3">
 
           @if(Session::has('notification.message'))
-          <div class="alert alert-{{ Session::get('notification.type') }}" role="alert">
-               <strong>{!! Session::get('notification.message') !!}</strong>
-          </div>
+               <div class="alert alert-{{ Session::get('notification.type') }}" role="alert">
+                    <strong>{!! Session::get('notification.message') !!}</strong>
+               </div>
           @endif
 
           @yield('content')
